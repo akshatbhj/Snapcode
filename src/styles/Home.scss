@@ -56,7 +56,7 @@
     width: 33%;
     height: 100vh;
     // animation: imgUp 0.7s linear infinite alternate;
-    margin-top: 217px;
+    margin-top: 395px;
     background: no-repeat url(../assets/vg2.png);
     background-size: 350px 500px;
     z-index: 11;
@@ -70,6 +70,7 @@
     justify-content: center;
     align-items: center;
     padding: 5rem;
+    // margin: 500px;
 
     > p {
       color: $first;
@@ -78,7 +79,7 @@
       font-style: $text1;
       font-size: 1.5rem;
       font-weight: 100;
-      margin-top: 150px;
+      margin-top: 300px;
     }
   }
 }
@@ -105,6 +106,7 @@
     border-right: 5px solid $third;
     border-bottom: 5px solid $third;
     z-index: 11;
+    margin-top: 90px;
 
     > h1 {
       text-transform: uppercase;
@@ -132,18 +134,19 @@
 
   > div {
     width: 70%;
-    height: 30vh;
-    padding: 1rem;
+    height: 40vh;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: $third;
-    border-radius: 100px 0 0 100px;
+    border-radius: 55px 0 0 55px;
     border-bottom: 5px solid white;
     border-top: 5px solid white;
     border-left: 5px solid white;
     z-index: 12;
+    margin-top: 200px;
 
     > article {
       display: flex;
@@ -161,7 +164,7 @@
         width: 5rem;
         height: 5rem;
         background-color: white;
-        border-radius: 50%;
+        border-radius: 25%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -195,7 +198,7 @@
     color: white;
     width: 140px;
     padding: 0.5rem;
-    margin-top: 47px;
+    margin-top: 275px;
     font-size: 3.2rem;
     z-index: 6;
   }

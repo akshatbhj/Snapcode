@@ -4,7 +4,7 @@ import {AiFillGoogleCircle, AiFillAmazonCircle, AiFillYoutube, AiFillInstagram, 
 const Home = () => {
   return (
     <>
-      <div className="home">
+      <div className="home" id="home">
         <main>
           <h1>snapcode</h1>
           <p>Solutions to all your coding problems in a snap.</p>
