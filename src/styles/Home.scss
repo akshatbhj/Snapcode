@@ -161,10 +161,11 @@
 
       > div {
         margin: 2rem;
-        width: 5rem;
+        width: 7.5rem;
         height: 5rem;
+        padding: 1rem;
         background-color: white;
-        border-radius: 25%;
+        border-radius: 15px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -185,8 +186,13 @@
         }
 
         svg {
-          width: 35px;
-          height: 35px;
+          width: 50px;
+          height: 50px;
+        }
+
+        > p {
+          line-height: 0.75rem;
+          font-size: small;
         }
       }
     }

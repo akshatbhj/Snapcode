@@ -40,24 +40,24 @@ const Home = () => {
           <article>
             <div style={{animationDelay:"0.3s"}}>
               <AiFillGoogleCircle />
-              {/* <p>Google</p> */}
+              <p>Google</p>
             </div>
             <div style={{animationDelay:"0.5s"}}>
               <AiFillAmazonCircle/>
-              {/* <p>Amazon</p> */}
+              <p>Amazon</p>
             </div>
             <div style={{animationDelay:"0.7s"}}>
               <AiFillYoutube/>
-              {/* <p>YouTube</p> */}
+              <p>YouTube</p>
             </div>
             <div style={{animationDelay:"0.9s"}}>
               <AiFillInstagram/>
-              {/* <p>Instagram</p> */}
+              <p>Instagram</p>
             </div>
-            <div style={{animationDelay:"1.1s"}}>
+            {/* <div style={{animationDelay:"1.1s"}}>
               <AiFillGithub/>
-              {/* <p>GitHub</p> */}
-            </div>
+              <p>GitHub</p>
+            </div> */}
           </article>
         </div>
       </div>
